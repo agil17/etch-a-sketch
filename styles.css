@@ -1,0 +1,37 @@
+.main-container {
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 4px red solid;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.column {
+    display: flex;
+    flex: 1;
+    border: solid blue 4px;
+}
+
+.column-hover {
+    display: flex;
+    flex:1;
+    border: solid blue 4px;
+    background-color: pink;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    column-gap: 16px;
+}
+
+h1 {
+    text-align: center;
+}
