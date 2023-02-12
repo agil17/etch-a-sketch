@@ -15,7 +15,7 @@
 .column {
     display: flex;
     flex: 1;
-    border: solid blue 4px;
+    border: solid lightgray .1px;
 }
 
 .column-hover {
@@ -30,8 +30,26 @@
     justify-content: center;
     margin-top: 32px;
     column-gap: 16px;
+    align-items: center;
 }
 
 h1 {
     text-align: center;
 }
+
+#gridContainer {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    border: 4px green solid;
+    margin: auto;
+  }
+  
+  .grid-item {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
